@@ -1,3 +1,26 @@
+:root {
+  --blue-950: hsl(217, 54%, 11%);
+  --blue-900: hsl(216, 50%, 16%);
+  --blue-800: hsl(215, 32%, 27%);
+  --blue-500: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --outfit: "Outfit", Helvetica, sans-serif;
+  --semibold: 600;
+  --light: 300;
+  --regular: 400;
+  --spacing-0: 0;
+  --spacing-8: 0.5rem;
+  --spacing-16: 1rem;
+  --spacing-24: 1.5rem;
+  --spacing-32: 2rem;
+  --fontsize-16: 1rem;
+  --fontsize-18: 1.125rem;
+  --fontsize-22: 1.375rem;
+  --lineheight-125: 125%;
+  --lineheight-145: 145%;
+  --letterspacing-0: 0;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -20,4 +43,7 @@ ul,
 ol,
 li {
   margin: 0;
+}
+
+body {
 }
