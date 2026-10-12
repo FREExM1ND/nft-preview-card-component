@@ -19,6 +19,10 @@
   --lineheight-125: 125%;
   --lineheight-145: 145%;
   --letterspacing-0: 0;
+  --nft-card-max-width: 21.875rem;
+  --nft-card-border-radius: 0.9375rem;
+  --nft-image-size: 18.875rem;
+  --nft-image-border-radius: 0.5rem;
 }
 
 html {
@@ -46,4 +50,35 @@ li {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue-950);
+  font-family: var(--outfit);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--blue-900);
+  padding: var(--spacing-24);
+  border-radius: var(--nft-card-border-radius);
+  max-width: var(--nft-card-max-width);
+  margin-top: var(--spacing-32);
+  .card__nft-image {
+    height: var(--nft-image-size);
+    border-radius: var(--nft-image-border-radius);
+    margin-bottom: var(--spacing-24);
+  }
+  .card__heading {
+    color: white;
+    font-size: var(--fontsize-22);
+    margin-bottom: var(--spacing-16);
+  }
+  .card__description {
+    color: var(--blue-500);
+    font-size: var(--fontsize-18);
+    font-weight: var(--light);
+  }
 }
