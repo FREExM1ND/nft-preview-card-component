@@ -24,6 +24,7 @@
   --nft-card-border-radius: 0.9375rem;
   --nft-image-size: 18.875rem;
   --nft-image-border-radius: 0.5rem;
+  --icon-clock-dimensions: 1rem;
 }
 
 html {
@@ -81,6 +82,36 @@ body {
     color: var(--blue-500);
     font-size: var(--fontsize-18);
     font-weight: var(--light);
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: var(--spacing-24);
+  border-bottom: 2px solid var(--blue-800);
+  margin-bottom: var(--spacing-24);
+
+  .stats__price {
+    color: white;
+    font-weight: var(--semibold);
+  }
+  .stats__clock {
+    color: var(--blue-500);
+  }
+  .stats__price,
+  .stats__clock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .icon-clock {
+    width: var(--icon-clock-dimensions);
+    height: var(--icon-clock-dimensions);
+  }
+  .icon-ethereum,
+  .icon-clock {
+    margin-right: var(--spacing-8);
+  }
+}
 .credits {
   font-size: var(--fontsize-12);
   text-align: center;
