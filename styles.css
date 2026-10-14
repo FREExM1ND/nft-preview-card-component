@@ -25,6 +25,8 @@
   --nft-image-size: 18.875rem;
   --nft-image-border-radius: 0.5rem;
   --icon-clock-dimensions: 1rem;
+  --avatar-border: 1px solid white;
+  --avatar-dimensions: 2rem;
 }
 
 html {
@@ -112,6 +114,27 @@ body {
     margin-right: var(--spacing-8);
   }
 }
+
+.creator {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--spacing-16);
+  .creator__avatar {
+    width: var(--avatar-dimensions);
+    border: var(--avatar-border);
+    border-radius: 50%;
+  }
+  .creator__creation {
+    color: var(--blue-500);
+    font-weight: var(--light);
+  }
+  .creator__name {
+    color: white;
+  }
+}
+
 .credits {
   font-size: var(--fontsize-12);
   text-align: center;
