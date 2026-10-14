@@ -76,6 +76,9 @@ body {
     border-radius: var(--nft-image-border-radius);
     margin-bottom: var(--spacing-24);
   }
+  .card__nft-image:hover {
+    color: var(--cyan);
+  }
   .card__heading {
     color: white;
     font-size: var(--fontsize-22);
