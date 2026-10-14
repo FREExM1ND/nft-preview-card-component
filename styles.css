@@ -60,6 +60,7 @@ body {
   align-items: center;
   background-color: var(--blue-950);
   font-family: var(--outfit);
+  line-height: var(--lineheight-125);
 }
 
 .card {
@@ -78,12 +79,18 @@ body {
   .card__heading {
     color: white;
     font-size: var(--fontsize-22);
+    font-weight: var(--semibold);
     margin-bottom: var(--spacing-16);
   }
   .card__description {
     color: var(--blue-500);
     font-size: var(--fontsize-18);
     font-weight: var(--light);
+    margin-bottom: var(--spacing-24);
+    line-height: var(--lineheight-145);
+  }
+}
+
 .stats {
   display: flex;
   flex-direction: row;
