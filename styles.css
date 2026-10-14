@@ -82,6 +82,9 @@ body {
     font-weight: var(--semibold);
     margin-bottom: var(--spacing-16);
   }
+  .card__heading:hover {
+    color: var(--cyan);
+  }
   .card__description {
     color: var(--blue-500);
     font-size: var(--fontsize-18);
@@ -139,6 +142,9 @@ body {
   }
   .creator__name {
     color: white;
+  }
+  .creator__name:hover {
+    color: var(--cyan);
   }
 }
 
