@@ -78,6 +78,7 @@ body {
     font-size: var(--fontsize-22);
     font-weight: var(--semibold);
     margin-bottom: var(--spacing-16);
+    transition: all 0.3s ease-in-out;
   }
   .card__heading:hover {
     color: var(--cyan);
@@ -161,6 +162,7 @@ body {
   }
   .creator__name {
     color: white;
+    transition: all 0.3s ease-in-out;
   }
   .creator__name:hover {
     color: var(--cyan);
@@ -176,6 +178,7 @@ body {
   & a {
     color: var(--blue-500);
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
   }
   & a:hover {
     color: white;
