@@ -123,7 +123,7 @@ body {
   margin-bottom: var(--spacing-24);
 
   .stats__price {
-    color: white;
+    color: var(--cyan);
     font-weight: var(--semibold);
   }
   .stats__clock {
