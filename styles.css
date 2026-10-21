@@ -93,7 +93,8 @@ body {
 }
 
 .nft-image {
-  height: var(--nft-image-size);
+  width: 100%;
+  height: auto;
   border-radius: var(--nft-image-border-radius);
   margin-bottom: var(--spacing-24);
 }
